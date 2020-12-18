@@ -28,9 +28,22 @@ span.super {
 p.form {
 	font-variant: small-caps;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 28px;
+	text-decoration: underline;
 }
 .submit {
-	background-color: blue;
+	background-color: black;
+	color: red;
+	border: 2px outset red;
+    border-radius: 20px;
+}
+.cubo {
+	width: 180px;
+	height: 34px;
+	background-color: black;
 	color: white;
+	
+}
+p.resalto {
+	text-decoration: underline;
 }
