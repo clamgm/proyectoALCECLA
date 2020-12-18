@@ -14,10 +14,10 @@
 <br/><br/>
 <p class="cursiva"> <a href="https://es.wikipedia.org/wiki/Educaci%C3%B3n" target="black"> <span class="super">Informacion:</span> </a>sobre como ingresar a nuestra empresa como candidato a un puesto en cuestion o como usuario de nuestras prestaciones. </p>
 <main>
-<div id="d1">
+
 <div id="d1"><img src="C:\Users\mueco\Documents\GitHub\trabajo compañeros 2\imagens\work.jpg" width="470" height="350" alt="img" align="left"></div>
 
-<div id="d2">
+
 <div id="d2"><img src="C:\Users\mueco\Documents\GitHub\trabajo compañeros 2\imagens\work1.jpg" width="470" height="350" alt="img" align="left"></div>
 
 <p class="right">La educación formal: hace referencia a los ámbitos de las escuelas, institutos, universidades, módulos donde se reconoce la participación por medio de certificados de estudios.
@@ -26,15 +26,50 @@ La educación informal: es aquella que fundamentalmente se recibe en los ámbito
 </main>
 <br/> 
 <p class="form"> si quieren incribirse a nuestro curso formativo avanzado rellene el siguiente formulario...</p>
+<section align="center">
+<div id="d3">
+<p class="datos"><label>Nombre:</label></p>
+<p><label> <input class="cubo" type="text" name="Nombre"></label></p>
+<p class="datos"><label>Apellidos:</label></p>
+<p><label> <input class="cubo" type="text" name="contraseña"> </label></p>
+<p class="datos"><label>Fecha de Nacimiento:</label></p>
+<p><label> <input class="cubo" type="text" name="contraseña"></label></p>
+<p class="datos"><label>Estudios:</label></p>
+<p><label> <input class="cubo" type="text" name="correo"></label></p>
+</div>
+
+<div id="d4">
+
+<form action="php/resultado.php" method="post" target="_blank">
 <p class="resalto"><label>Nombre de usuario:</label></p>
 <p><label> <input class="cubo" type="text" name="Nombre"></label></p>
 <p class="resalto"><label>Contraseña:</label></p>
 <p><label> <input class="cubo" type="text" name="contraseña" placeholder="**********"></label></p>
 <p class="resalto"><label> Repetir Contraseña:</label></p>
 <p><label> <input class="cubo" type="text" name="contraseña" placeholder="**********"></label></p>
-<p class="resalto"><label>Correo Electronico:</label></p>
-<p><label> <input class="cubo" type="text" name="correo"></label></p>
+<p class="resalto"><label>Correo Electronico: </label></p>
+<p><label> <input class="cubo" type="text" name="correo" list="correos" title="escribe aqui tu correo electronico" placeholder="@hotmail.com"></label></p>
+
+
+</div>
 <input type="submit" class="submit">
+<input type="reset" class="submit" value="Restaurar">
+
+</form>
+<datalist id="correos">
+
+  <option value="@hotmail.com">
+
+  <option value="@gmail.com">
+
+  <option value="@yahoo.com">
+
+  <option value="@outlook.com">
+
+</datalist>
+</section>
+
+
 
 </body>
 
